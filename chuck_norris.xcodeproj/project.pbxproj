@@ -13,6 +13,7 @@
 		95A5889023D01EC100EEE059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5888E23D01EC100EEE059 /* Main.storyboard */; };
 		95A5889223D01EC300EEE059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A5889123D01EC300EEE059 /* Assets.xcassets */; };
 		95A5889523D01EC300EEE059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5889323D01EC300EEE059 /* LaunchScreen.storyboard */; };
+		95A5889D23D025BD00EEE059 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5889C23D025BD00EEE059 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95A5889123D01EC300EEE059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A5889423D01EC300EEE059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A5889623D01EC300EEE059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A5889C23D025BD00EEE059 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		95A5888723D01EC100EEE059 /* chuck_norris */ = {
 			isa = PBXGroup;
 			children = (
+				95A5889C23D025BD00EEE059 /* Model.swift */,
 				95A5888823D01EC100EEE059 /* AppDelegate.swift */,
 				95A5888A23D01EC100EEE059 /* SceneDelegate.swift */,
 				95A5888C23D01EC100EEE059 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				95A5888D23D01EC100EEE059 /* ViewController.swift in Sources */,
 				95A5888923D01EC100EEE059 /* AppDelegate.swift in Sources */,
 				95A5888B23D01EC100EEE059 /* SceneDelegate.swift in Sources */,
+				95A5889D23D025BD00EEE059 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6366N89PU;
 				INFOPLIST_FILE = chuck_norris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J6366N89PU;
 				INFOPLIST_FILE = chuck_norris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
